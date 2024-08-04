@@ -1,0 +1,185 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oldenburg', sans-serif;
+    background-color: #616b81;
+}
+
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos del fondo principal */
+.fondo-principal {
+    position: relative;
+    height: 620px;
+    background: url('https://i.pinimg.com/564x/9e/87/5b/9e875bd853736d2bd6ce8f9fdba0c17f.jpg') center/cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 1, 1, 0.5);
+}
+
+/* Sección de introducción */
+.intro {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: #000000;
+    border-radius: 27px;
+    margin-top: -80px;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.intro h2 {
+    font-size: 40px;
+    margin: 10px 0 20px;
+}
+
+/* Sección de "Acerca de" */
+.acerca-de {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.acerca-de img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid #F7ECF3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.acerca-de h3 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.acerca-de p {
+    font-size: 23px;
+    color: #000000;
+    border-style:double;
+}
+
+/* Sección de proyectos */
+.proyectos {
+    background: #A09696;
+    padding: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+}
+
+.proyectos h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.proyectos-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.proyecto {
+    width: 235px;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 235px;
+    border-radius: 19px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.proyecto h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.proyecto p {
+    font-size: 14px;
+}
+
+/* Sección de formulario de contacto */
+.contacto {
+    background: #FFFFFF;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contacto h2 {
+    color: #1158F0;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 22px;
+    background: #D9D9D9;
+    font-size: 23px;
+    color: #730257;
+    cursor: pointer;
+}
+
+/* Sección de redes sociales */
+.redes {
+    border-radius: 20px rgb(244, 243, 243);
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.redes img {
+    width: 50px;
+    height: 50px;
+}
+
